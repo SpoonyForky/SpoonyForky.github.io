@@ -1,35 +1,229 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Robert Muir</title>
-    <style>
-        .center {
-            margin: auto;
-            width: 50%;
-            padding: 10px;
-            text-align: center;
-        }
-        .name {
-            font-size : 12em;
-        }
-
-        .list{
-            font-size: 6em;
-        }
-    </style>
-</head>
-<body>
-<!-- <nav> insert nav bar here </nav>
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<div class = "center">
+<html xmlns:font-size="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Robert Muir - Software Developer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
 
-<H1 class="name"> Robert Muir</H1>
-<ul class="list">
-    <ol> <a href="https://github.com/SpoonyForky">Github</a></ol>
-    <ol> <a href="https://ca.linkedin.com/in/muirrobc">Linked in</a></ol>
-    <ol> <a href="Robert_Muir_Resume.pdf">Resume</a> </ol>
-</ul>
-</div>
-</body>
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/Ricon.ico" alt="" /></span>
+							<h1 id="title">Robert Muir</h1>
+							<p>Software Developer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projects</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+						<!-- 	<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
+							<li><a href="https://github.com/SpoonyForky" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://ca.linkedin.com/in/muirrobc" class="icon fa-dribbble"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:MuirDev@protonmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi! I'm <strong>Rob</strong>, a new graduate and a software developer</a>.</h2>
+								<p>Welcome<br />
+								to my personal page</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Lets Begin!</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Projects</h2>
+							</header>
+
+							<p>Here are some examples of work I have done - a lot of it is still on going or were started for school</p>
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="http://spoonyforky.synology.me/bikeshare/" class="image fit"><img src="images/bikeshare_logo1.png" alt="" /></a>
+										<header>
+											<h3> <strong>Bikeshare</strong> <br/> A lesson in Jquery and google maps</h3>
+											HTML CSS JS
+										</header>
+									</article>
+									<article class="item">
+										<a href="https://github.com/SpoonyForky/Smokeless1" class="image fit"><img src="images/VapeNation.jpg" alt="" /></a>
+										<header>
+											<h3>Smokeless <br/>An Android application to quit smoking cigarettes</h3>
+											Java, Sqllite, fragments, multiple activites, mediaplayer, adapterview
+
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="https://github.com/SpoonyForky/Capstone2" class="image fit"><img src="images/moneymoney.PNG" alt="" /></a>
+										<header>
+											<a href="https://moneymoney.zapto.org"> Live Link</a>
+											<h3>An attempt to visualize Data and learn new libraries not my strongest design pretty project </h3>
+										<!--	I enjoy programming and coding, but I also like white space <br/> <span style="font-size: 80%">
+											I don't have strong feelings for either <span style="font-family:'times new roman'">Times New Roman</span>  or
+											<span style="font-family:'comic sans ms">Comic Sans Ms</span> or whatever <span	style="font-family: 'Impact'">this one is </span>
+											</span><br/> -->
+											Bootstrap, jquery, node.js, mongodb, d3charts,expressjs, Auth0
+										</header>
+									</article>
+									<article class="item">
+										<a href="http://spoonyforky.synology.me/angular/" class="image fit"><img src="images/bulb_cfl.svg" alt="" style="width:50%;height: 50%"/></a>
+										<header>
+											<h3>Keep the lights on!</h3>
+											<br/> Just a coffee break project with Angular
+										</header>
+									</article>
+								</div>
+								<!--
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<header>
+											<h3>Dolor Penatibus</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<header>
+											<h3>Orci Convallis</h3>
+										</header>
+									</article>
+								</div>
+								-->
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/image%20(9).jpg" alt="" /></a>
+
+							<p>Coffee - Computers - DIY</p>
+							<p>I'm a recent graduate from <a href="https://academics.sheridancollege.ca/programs/computer-systems-technology-software-development-and-network-engineering">Sheridan College.</a> While I went into their program with experience as a Telecom Technician I left more experience and interest in developing software. I will always love the idea of connecting things together though.  The first time I was able to start a download on my home server from my phone put a great big smile on my face. Automation is the next step. I used to laugh at the idea of a perpetual student, now I find myself one of them. Always striving to learn something new and perfecting something I can already do.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Leave me a message!</p>
+
+							<form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbzVef9ENfCunfC2cfjYsT3auPaaYFGF6o5Vtnq1Kc7vYm9wszIO/exec">
+								<div class="row">
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+						<div style="display: none;" id="thankyou_message">
+							<h2> Thank you for reaching out! I'll get in contact with you soon!</h2>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; R.Muir. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script data-cfasync="false" type="text/javascript"
+				src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+	</body>
 </html>
